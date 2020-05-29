@@ -39,6 +39,7 @@ public class AssociationExample {
 		customer.printCustomerData();
 	}
 	public static void main(String[] args) {
+		System.out.println("Server started");
 		AssociationExample ae = new AssociationExample();
 		ae.printCustomerDetails();
 
