@@ -14,7 +14,7 @@ class Customer{
 		name = cname;
 	}
 	void getCustomerData() {
-		System.out.println("Please enter the customer id");
+		System.out.println("Please enter the customer ID");
 		id = scanner.nextInt();
 		scanner.nextLine();
 		System.out.println("Please enter the customer name");
